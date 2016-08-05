@@ -1,0 +1,104 @@
+/*===============================
+MEDIA QUERIES
+===============================*/
+@media screen and (min-width: 768px) {
+  .user {
+    float: right;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  .navigation {
+    flex-direction: column;
+    width: 7.5%;
+    align-items: center;
+    height: 100%;
+  }
+
+  main {
+    float: right;
+    width: 92.5%;
+  }
+
+  .widget {
+    display: block;
+  }
+
+  .widget-name {
+    text-align: left;
+  }
+
+  #chartbtn {
+    text-align: right;
+  }
+
+  #daily-widget,
+  #mobile-widget {
+    display: inline-block;
+  }
+
+  #daily-widget {
+    float: left;
+    width: 45%;
+    padding-right: 20px;
+    border-right: 1px solid darkgrey;
+  }
+
+  #mobile-widget {
+    margin-left: auto;
+    width: 45%;
+  }
+
+  .social {
+    display: inline-block;
+  }
+
+  .social-group {
+    margin-left: 90px;
+    margin-top: -65px;
+  }
+
+  #twitter,
+  #facebook,
+  #google-plus {
+    width: 33%;
+  }
+
+  #message-user {
+    float: left;
+    width: 45%
+  }
+
+  #settings {
+    margin-left: auto;
+    width: 45%;
+  }
+
+  .flex-container {
+    margin-top: 30px;
+  }
+
+  #timezone {
+    margin-top: 25px;
+  }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+  #member-container {
+    float: left;
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  #activity-container {
+    margin-left: auto;
+    width: 45%;
+
+  }
+}
